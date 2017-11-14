@@ -10,4 +10,8 @@ com o comando "sslstrip -a -l 8080"
 Por final, podemos verificar que no arquivo "sslstrip.log" criado, os dados que foram trafegados estão registrados e no livre
 acesso do atacante.
 
-Q.2)
+Q.2) Deveria haver uma permissão, ou dificuldade, maior para alteração do gateway padrão, evitando que programas externos,
+como o SSLSTRIP conseguisse alterar essa configuração.
+
+Poderia haver uma autenticação entre a máquina do usuário e o AP, para que houvesse a certificação de que a comunicação está
+correta, evitando dispositivos externos de ter acesso ao tráfego.
