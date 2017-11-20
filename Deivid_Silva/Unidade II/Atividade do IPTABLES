@@ -1,1 +1,13 @@
-Q.1)
+Q.1) O colega atacante não consegue acessar a pagina mais. Com o comando de drop conseguimos criar uma regra para impedir o acesso
+de outro usuário a servidores locais criados.
+
+Q.2) Um colega conseguiu o acesso e outro não. Com esse novo comando, conseguimos especificar o computador que não terá acesso aos
+seus servidores, diferentemente do primeiro comando "sudo iptables -A INPUT -p tcp --dport X -j DROP", que proibia o acesso de qualquer
+um.
+
+Q.3) O comando do telnet exibe a mensagem de "Testing..." mas nada acontece, provando que a conexão está inviável.
+
+Q.4) Uma das principais diferenças entre Telnet e SSH é que a SSH é bem mais segura, já que criptografa seus pacotes em cada seção
+estabelecida, o SSH também é mais rápido e mais acessível.
+
+Q.5) O comando "sudo iptables -A INPUT -j DROP" derrubou a conexão SSH que existia.
