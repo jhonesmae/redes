@@ -12,6 +12,6 @@ Unidade I:
 Unidade II:  
 ~~**Atividade 01**: seguranca.pdf (entrega 07/11)~~   
 **Atividade 02**: iptables.pdf (entrega 14/11)       
-**Atividade 03**: (entrega 20/11)[https://docs.google.com/document/d/1xe6vS1ycrG_7oB387UBSieEV1IM4rmJ3y-2LLoqVETA/edit?usp=sharing]   
-**Atividade 04**: (entrega 27/11)[https://docs.google.com/document/d/1nFtiDi5LLqbWEwXIYidyaJWnokJAvi8u3b40WqSy9TY/edit?usp=sharing]         
+**Atividade 03**: [entrega 20/11](https://docs.google.com/document/d/1xe6vS1ycrG_7oB387UBSieEV1IM4rmJ3y-2LLoqVETA/edit?usp=sharing)   
+**Atividade 04**: [entrega 27/11](https://docs.google.com/document/d/1nFtiDi5LLqbWEwXIYidyaJWnokJAvi8u3b40WqSy9TY/edit?usp=sharing)         
 
