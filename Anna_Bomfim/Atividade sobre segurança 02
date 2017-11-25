@@ -1,0 +1,14 @@
+Atividade sobre segurança 02
+
+2.1
+Quando um usuário conecta-se em um site seguro, que transfere as informações criptografadas com o servidor impedindo um ataque. 
+Quando realizamos o ataque de SSLStrip, interceptamos o tráfego do alvo através de técnicas man-in-the-middle, dessa forma os 
+atacantes enganam o alvo fazendo-se passar por um proxy e engana o servidor se passando pelo cliente, assim as informações são 
+passadas para o atacante em texto puro. 
+
+2.2
+O ArpON é uma ferramenta open source que faz ARP seguro, evitando, com isso, ataques como Man-in-the-middle, dentre outros. 
+Essa ferramenta funciona monitorando a tabela ARP da rede, que gera e bloqueia alterações na tabela. Assim, quando algum usuário 
+atacante tentar fazer o ARP spoofing, ele não irá conseguir completar. Porém, do alvo para o gateway, ele vai ter sucesso, pois 
+não temos nenhuma proteção no cliente, mas quando ele tentar fazer do gateway para o alvo, ele não vai conseguir, pois o ArpON 
+que está no gateway irá bloquear, com isso impedimos o ataque. 
