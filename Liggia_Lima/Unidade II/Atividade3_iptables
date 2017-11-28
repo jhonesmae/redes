@@ -1,0 +1,33 @@
+IFBA- Jequié
+Estudante- Liggia Santos Lima
+
+Atividade 3- Iptables
+
+script:
+
+#ftp- 21
+#https- 80
+#smtp- 25
+#imaps- 993
+
+modprobe iptable_nat
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+
+iptables -P INPUT -DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 21 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 25 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 993 -j ACCEPT
+
+sudo iptables -A INPUT -p tcp -s 10.17.8.1 --dport 22 -j ACCEPT
+sudo iptables -A INPUT -p tcp -s 10.17.8.0/21 --dport 22 -j ACCEPT
+sudo iptables -A OUTPUT -p tcp -s 10.17.8.1 --dport 22 -j ACCEPT
+sudo iptables -A OUTPUT -p tcp -s 10.17.8.0/21 –-dport 22 -j ACCEPT
+
+iptables -A INPUT -p icmp --icmp-type 0 -j ACCEPT
+iptables -A INPUT -p icmp --icmp-type 8 -j ACCEPT
+iptables -A OUTPUT -p icmp --icmp-type 0 -j ACCEPT
+iptables -A OUTPUT -p icmp --icmp-type 8 -j ACCEPT
