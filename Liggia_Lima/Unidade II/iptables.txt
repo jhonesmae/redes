@@ -1,0 +1,19 @@
+IFBA- Jequié
+Estudante: Liggia Santos Lima
+
+Iptables
+
+Questão 1- 
+No primeiro acesso, utilizando o “ACCEPT”, o servidor abre a página do Apache com algumas configurações. Depois de determinar o bloqueio com o “DROP”, encerra o acesso ao servidor.
+
+Questão 2-
+O IP do primeiro colega não entrou no servidor, já o que não foi configurado entrou na página do Apache.
+
+Questão 3-
+O IP não configurado permitiu acesso do Telnet, já o configurado ficou apenas tentando, mas não permitiu conexão.
+
+Questão 4-
+Ambos são emuladores de terminal. O Telnet envia detalhes da conta do usuário através da rede e não tem procedimentos de criptografia, os dados são enviados em texto simples e não serve para usuários domésticos. O SSH tem as mesmas funções do Telnet, mas já possui a criptografia dos dados, possui também o comando SCP integrado, facilitando  a transferência de dados.
+
+Questão 5-
+Ele parou a transmissão, com o DROP não tem como ter acesso remoto com o pc, visto que o DROP encerra a conexão via endereço IP.
